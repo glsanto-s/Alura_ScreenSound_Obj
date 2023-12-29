@@ -15,13 +15,15 @@ namespace Alura_ScreenSound_Obj.Menus.Registrar
             Banda banda = new Banda(nomeBanda);
             bandasRegistradas.Add(nomeBanda, banda);
 
-            var client = new OpenAIAPI("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");
-            var chat = client.Chat.CreateConversation();
+            //API OpenAI mas que tem prazo de validade
 
-            chat.AppendSystemMessage($"Resuma a banda {nomeBanda} em 1 parágrafo. Adote um estilo informal.");
+            //var client = new OpenAIAPI("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");
+            //var chat = client.Chat.CreateConversation();
 
-            string resposta = chat.GetResponseFromChatbotAsync().GetAwaiter().GetResult();
-            banda.Resumo = resposta;
+            //chat.AppendSystemMessage($"Resuma a banda {nomeBanda} em 1 parágrafo. Adote um estilo informal.");
+
+            //string resposta = chat.GetResponseFromChatbotAsync().GetAwaiter().GetResult();
+            //banda.Resumo = resposta;
 
             Console.WriteLine($"A banda {nomeBanda} foi registrada com sucesso!");
             Console.WriteLine("\nDigite algo para voltar");
