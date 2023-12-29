@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alura_ScreenSound_Obj", "Alura_ScreenSound_Obj\Alura_ScreenSound_Obj.csproj", "{01629992-F454-4E5C-990F-F8A88C0ED87C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01629992-F454-4E5C-990F-F8A88C0ED87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01629992-F454-4E5C-990F-F8A88C0ED87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01629992-F454-4E5C-990F-F8A88C0ED87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01629992-F454-4E5C-990F-F8A88C0ED87C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {285AE51B-D491-4CCB-98D5-4B9831793E19}
+	EndGlobalSection
+EndGlobal
